@@ -1,0 +1,395 @@
+{
+    "manifest":  "stage1_archive_manifest",
+    "generated_at":  "2026-10-09 21:51:45",
+    "generator":  "PowerShell Get-FileHash SHA256 (manual audit packaging)",
+    "project_root":  "d:/code/1",
+    "blocking_note":  "正式实验项全部 NOT RUN：需要 Linux GPU 服务器以及 OPV2V 数据集，Windows 本机环境无法执行",
+    "scope_note":  "涵盖核心源码、测试脚本、驱动脚本、配置、全套审计文档与 synthetic surrogate 产物；不含本 manifest 自身。PROJECT_AUDIT_PACKAGE/source/ 为阶段一冻结副本，不含第二阶段新增的 6 个模块（counter_rng/crc_bch/risk_strata/metrics_risk/controllers/e2t_pipeline），后者仅存在于主项目 src/modules/。",
+    "file_count":  64,
+    "files":  [
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/ALGORITHM_MAPPING.md",
+                      "sha256":  "4a47537c0a4cec08c70d43476fc734a22fc7ac16df595b3725205728afa69ab1",
+                      "bytes":  11319
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/AUDIT_REPORT.md",
+                      "sha256":  "517ebf9b81d5c37ac114599b16665e4721d65588b7d97dc537790909aa18e69c",
+                      "bytes":  9189
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/DEVIATIONS_AND_LIMITATIONS.md",
+                      "sha256":  "3ba149568d603620066bedd39cbfd3661fb6c13ff97f97b7b6fce5130b4bff6a",
+                      "bytes":  19039
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/ENVIRONMENT_AND_RUN.md",
+                      "sha256":  "a0e2b96da8a3133c9434cf5e4419aff7b171c23eee2b45d8571fb74a7a3c0792",
+                      "bytes":  6551
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/EXPERIMENT_AUDIT.md",
+                      "sha256":  "9e00e57cc3a96f43b1348a59e89c16cf580511b7080fa713b889a5a3b24e2e7e",
+                      "bytes":  18118
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/PROJECT_STRUCTURE.md",
+                      "sha256":  "76996a3cad565914210ab97a8f18bea0c86641a4bd5de5b7bf6d97723961a43f",
+                      "bytes":  8868
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/README.md",
+                      "sha256":  "393c9a6ee73f1a108d8eeecb4138a1d1d3a841896a43a11e258665550355f287",
+                      "bytes":  3895
+                  },
+                  {
+                      "group":  "audit_docs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/TEST_REPORT.md",
+                      "sha256":  "3b130ec3eedb6954582a5c5aec4155902fa7a7cc23868948f86517dddc7c9c12",
+                      "bytes":  8468
+                  },
+                  {
+                      "group":  "audit_logs",
+                      "path":  "PROJECT_AUDIT_PACKAGE/logs/audit_run_log.md",
+                      "sha256":  "47604ec52f8e8a1957e0911aa839208ab25fcbe9557a7d59b3b0ae2301f5c0af",
+                      "bytes":  2206
+                  },
+                  {
+                      "group":  "configs",
+                      "path":  "configs/risk_strata.yaml",
+                      "sha256":  "c087092429823ce4feaffa46a3b21603d71f1c6ebbd8ef04dea1a57cc9a3a31f",
+                      "bytes":  512
+                  },
+                  {
+                      "group":  "configs",
+                      "path":  "configs/toy_config.yaml",
+                      "sha256":  "b77f53da33198b11cca2ebff6d6621e7bde01235caf33e740376e579f99e0216",
+                      "bytes":  3978
+                  },
+                  {
+                      "group":  "configs",
+                      "path":  "pytest.ini",
+                      "sha256":  "0f0ed4359e66cf51cc734543bc27cb1c854571d51e874fd343d1a84619812d54",
+                      "bytes":  88
+                  },
+                  {
+                      "group":  "configs",
+                      "path":  "requirements.txt",
+                      "sha256":  "e551865af1313eae8e440a559f52c7c9dfad15412c08eab17d56579387bb8695",
+                      "bytes":  1621
+                  },
+                  {
+                      "group":  "configs",
+                      "path":  "run_demo.bat",
+                      "sha256":  "20f3a38f2d75f7227cdf3cd2e40af0ab382567a5e2644e67e742399c3aae15b8",
+                      "bytes":  46
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/__init__.py",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/controllers.py",
+                      "sha256":  "6c752cbcd0cfd9535a8715ae9dcc03e58969d956b486a3bd31e51a5d89afbba3",
+                      "bytes":  6738
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/counter_rng.py",
+                      "sha256":  "dc2de153d9dd33d1e4efec18abc840c0d0fb378ae8a0edc77fc38d5db87872a3",
+                      "bytes":  4208
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/crc_bch.py",
+                      "sha256":  "f9c05568626c2785e248588402b88ec840716f8c88643b402485549ec02b5f9a",
+                      "bytes":  14813
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/decoder.py",
+                      "sha256":  "fe3d758e2f15d5859483c7ade528dd13df4fd89d0ca377452742c30b6c483748",
+                      "bytes":  12749
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/e2t_pipeline.py",
+                      "sha256":  "3374459d9e30ecc49c972cc4ae15dcea430d0cbd5e2daa242a3dce863bce41b8",
+                      "bytes":  23177
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/erasure.py",
+                      "sha256":  "131001c943b7ad0e1b822033d00e6d54a3056cec6c44c798767407b36449dc4b",
+                      "bytes":  2900
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/group_query.py",
+                      "sha256":  "64701eb63e81ab5264c14a9bedcbe1a2db7763272c6ffdb45ea1d51b128c39b7",
+                      "bytes":  5269
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/input_mask.py",
+                      "sha256":  "b59491ae34306b0a762e6692a8edb9f9df7f8c1d1a5c8863789851508ca06eaa",
+                      "bytes":  2993
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/math_functions.py",
+                      "sha256":  "32d273217db351da23078818fb35cc482f01b543de7ae044ad6ed1351d19d9e7",
+                      "bytes":  7479
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/metrics_risk.py",
+                      "sha256":  "ca7e77256f9bcbb5392e5e99918b2aca9c1a8534bf04f1e5475c7e1e56c19787",
+                      "bytes":  4516
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/mother_code.py",
+                      "sha256":  "85fac6ace64bd9b233df061e731fe14623fda66ddc5788dc9d4cf621526496ee",
+                      "bytes":  19797
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/profile_generator.py",
+                      "sha256":  "d43ff6d3116da8c98aad1b5731d46fc13d4ceb56dfca037031cb0f221062f44c",
+                      "bytes":  8879
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/quantizer.py",
+                      "sha256":  "bf4c21b1dd45b469da1de6fa4c0ba886c1f66fbe5a4becdea9aafe2a40d676aa",
+                      "bytes":  2588
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/receiver.py",
+                      "sha256":  "dadfca189702fc532a622ac2df89206921d41cf80bddff05d79b8a09bfbf4f73",
+                      "bytes":  6737
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/risk_strata.py",
+                      "sha256":  "6748111fbd58f6eb6b3b45ad24f7f5cfae36b15a56efd5e4fdb0fc1dc904fed5",
+                      "bytes":  4024
+                  },
+                  {
+                      "group":  "core_source",
+                      "path":  "src/modules/software_channel.py",
+                      "sha256":  "4dfa72b741c52039fb555ed15fc401ee097449850728f4c53c4440c941d67d6c",
+                      "bytes":  6205
+                  },
+                  {
+                      "group":  "docs_root",
+                      "path":  "README.md",
+                      "sha256":  "27c943121719fe77b4aadd98c348e0e9688719177fc2c0797854fac4a898ad72",
+                      "bytes":  966
+                  },
+                  {
+                      "group":  "driver_scripts",
+                      "path":  "run_toy.py",
+                      "sha256":  "4ea3de340827304addd1a07d5149d73712c472ccf3a20716b8ac82905f46b396",
+                      "bytes":  3286
+                  },
+                  {
+                      "group":  "driver_scripts",
+                      "path":  "scripts/run_demo.py",
+                      "sha256":  "970656a2ad69304377fbd2054d1760d87a7f56a5da8bcf066a4f3c5d1a21eac6",
+                      "bytes":  1889
+                  },
+                  {
+                      "group":  "driver_scripts",
+                      "path":  "scripts/run_e2t_toy.py",
+                      "sha256":  "00cd9b33049d2854ae2c8b2c291d7a1ec877cdae1aaba65b433f2f4662848504",
+                      "bytes":  17760
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/bound_profile_table_safe.csv",
+                      "sha256":  "e75387881547b5a793eefcb81d103d0044ad0fcf84072638e289b3599a0e7d58",
+                      "bytes":  396
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/bound_profile_table_tight.csv",
+                      "sha256":  "e75387881547b5a793eefcb81d103d0044ad0fcf84072638e289b3599a0e7d58",
+                      "bytes":  396
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/bound_terms.csv",
+                      "sha256":  "0fa1538aac716bf28d8ada8f19b2bf289d9ea91a6882d9e6cde33a97fc261599",
+                      "bytes":  50368
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/bound_ucb_table.csv",
+                      "sha256":  "1926b40de8646f3f1561bce1fdb0dc663b45361b1f56c694e5771fbef810b848",
+                      "bytes":  22013
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/controller_comparison.csv",
+                      "sha256":  "9d23b3f0b960eb2b4ffc0854f9de6f51f3eb0b5c124f3d7159ee100f2127a165",
+                      "bytes":  3006
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/controller_snr_auc.csv",
+                      "sha256":  "f01d32e2501245574a19547d74d41db17d967d614f908b2162b06f9173da3520",
+                      "bytes":  501
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/coverage_report.csv",
+                      "sha256":  "dd4216f59b6ff5b1cd45f6caa7181a9575a36747e28c5199b22e5a8193086293",
+                      "bytes":  830
+                  },
+                  {
+                      "group":  "e2t_surrogate_results",
+                      "path":  "results_e2t/PROVENANCE.txt",
+                      "sha256":  "bc2486587b396a493244a6a6d4db707384eb3254608af480fae651bb134f431f",
+                      "bytes":  1059
+                  },
+                  {
+                      "group":  "reproduce",
+                      "path":  "PROJECT_AUDIT_PACKAGE/reproduce/audit_all.py",
+                      "sha256":  "0429df4dae5804379f6cbe910f1fd9573ec9e62c1005b764dbf3e86b3f156ef1",
+                      "bytes":  9463
+                  },
+                  {
+                      "group":  "run_manifests",
+                      "path":  "PROJECT_AUDIT_PACKAGE/manifests/run-001-pytest.json",
+                      "sha256":  "90410d22dbc1eca3b60d28c89e966afe32008ac9965036b08a2596d06938bc1a",
+                      "bytes":  729
+                  },
+                  {
+                      "group":  "run_manifests",
+                      "path":  "PROJECT_AUDIT_PACKAGE/manifests/run-002-demo.json",
+                      "sha256":  "9c912239d00b64585f2dd067325e8c75f49ca6dae4fb60033668dc4b7ab7352d",
+                      "bytes":  567
+                  },
+                  {
+                      "group":  "run_manifests",
+                      "path":  "PROJECT_AUDIT_PACKAGE/manifests/run-003-toy-acceptance.json",
+                      "sha256":  "9e0a5a275f3d6bf3a854157b388c2b53ac3592bbc0e043dbbe65f33f4136bce4",
+                      "bytes":  829
+                  },
+                  {
+                      "group":  "run_manifests",
+                      "path":  "PROJECT_AUDIT_PACKAGE/manifests/run-004-determinism.json",
+                      "sha256":  "1b386cccfeaadcd6b9803dea191d38acf1341a6960de85f8588f2df57d29952c",
+                      "bytes":  1256
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/__init__.py",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_controllers.py",
+                      "sha256":  "cd4f8970300226b1dacc6812b0cf9412c115078a573addf122ba2d3376919ce4",
+                      "bytes":  3593
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_counter_rng.py",
+                      "sha256":  "fba9cdfbb5d6b087b7354d1d732d53024eea9bf2de9595e15e9b27ddde258836",
+                      "bytes":  1957
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_crc_bch.py",
+                      "sha256":  "776e8bc028a87781a9e364f5131e1065ab827a34837a2dab70b79b7988a01470",
+                      "bytes":  5496
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_decoder_erasure.py",
+                      "sha256":  "870989292d345dcf677d67a8cd1c3861cc514d97c99458464c9d330c82ee7857",
+                      "bytes":  3843
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_e2t_pipeline.py",
+                      "sha256":  "3b9bdcb069adbee7b476abf3edff718fbc9e123d8c2dfe44a4e41c6e1bdfa382",
+                      "bytes":  13187
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_end_to_end.py",
+                      "sha256":  "44c896f1bfcf7a9e5d8585e4fa5da6789730a87c4726f66ced127abf367dd644",
+                      "bytes":  4853
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_lp_interface.py",
+                      "sha256":  "894e963362e153253cf3f6edca7da4f832f4253134f0ad5f9e0c75a5a6f78107",
+                      "bytes":  1733
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_math_functions.py",
+                      "sha256":  "0e107a7d011e86617b6ffb27e2e0642eb06049476cccd867b1b330dee8cc0673",
+                      "bytes":  3037
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_math_toys.py",
+                      "sha256":  "f19931ac0a848a78e498daa66bc09ad67ac0935235db5e2d467b088872ce556e",
+                      "bytes":  7289
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_metrics_risk.py",
+                      "sha256":  "3d6dca3af0a9fb648643d0857256ad1cf52bfe87d5b56d9510e56eccec6a6533",
+                      "bytes":  3290
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_mother_code.py",
+                      "sha256":  "373f851f7832f2ee01293dfd9caedae619b90c4f0d483d1d63e8b527224c7303",
+                      "bytes":  8739
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_profile_generator.py",
+                      "sha256":  "347f9c2109aab04e8b36aecd357a06d520e3e896159b0b40ab3e297426b112ac",
+                      "bytes":  2126
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_risk_strata.py",
+                      "sha256":  "0a74e9824a5b07341b5cf0e2a4b3ada4c5981957c8d4e2cf9dd40a18aba3fd4e",
+                      "bytes":  2950
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_software_channel.py",
+                      "sha256":  "32de5011ee740905557f4f7af7c52c0b4638e9dec13e10181d078ffc799663c6",
+                      "bytes":  3315
+                  },
+                  {
+                      "group":  "test_scripts",
+                      "path":  "tests/test_structure.py",
+                      "sha256":  "6e491b0e31451da158dcbd5715d3fbf50a5516345c89f59d045053f65da03e7b",
+                      "bytes":  5885
+                  }
+              ]
+}
